@@ -1,0 +1,40 @@
+#menu {
+	margin: 100px 0;
+}
+
+.menu-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.category-title {
+	font-family: var(--second-family);
+	font-size: 64px;
+	font-weight: 400;
+	color: var(--text-primary);
+}
+
+.menu-list__item {
+	margin-bottom: 16px;
+	padding: 16px 24px 16px 16px;
+	display: flex;
+	align-items: center;
+
+	img {
+		margin-right: 17px;
+		border-radius: 10px;
+	}
+}
+
+.menu-list__description {
+	h4 {
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	p {
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
