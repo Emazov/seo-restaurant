@@ -82,6 +82,11 @@
 
 
 /*** Navbar ***/
+.header-logo{
+	font-size: 50px;
+	font-weight: 700;
+}
+
 .navbar-dark .navbar-nav .nav-link {
 	position: relative;
 	margin-left: 25px;
@@ -215,6 +220,7 @@
 }
 
 .service-item {
+	height: 100%;
 	box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 	transition: .5s;
 }
@@ -231,6 +237,10 @@
 	color: var(--light) !important;
 }
 
+/* about us from index.html */
+.about-small{
+
+}
 
 /*** Food Menu ***/
 .nav-pills .nav-item .active {
