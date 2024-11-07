@@ -82,7 +82,7 @@
 
 
 /*** Navbar ***/
-.header-logo{
+.header-logo {
 	font-size: 50px;
 	font-weight: 700;
 }
@@ -237,10 +237,8 @@
 	color: var(--light) !important;
 }
 
-/* about us from index.html */
-.about-small{
-
-}
+/* about us from / */
+.about-small {}
 
 /*** Food Menu ***/
 .nav-pills .nav-item .active {
